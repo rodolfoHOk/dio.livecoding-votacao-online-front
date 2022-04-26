@@ -8,8 +8,38 @@
 
 ## 👨‍💻 Tecnologias utilizadas 👩‍💻
 
-- Typescript : Linguagem programação 
+- Typescript : Linguagem programação
 - Angular : UI Framework
+
+## Comandos do Angular CLI utilizados
+
+- Criação do projeto
+
+  ng new votacao-online-front
+
+  options: with routing and scss
+
+- Criação do componente votacao
+
+  ng g c votacao/votacao
+
+- Criação do model participante
+
+  ng g interface model/participante
+
+- Criação do serviço rest
+
+  ng g s service/rest
+
+- Criação do componente registrar-voto
+
+  ng g c votacao/registrarVoto
+
+## Modulos do Angular adicionais
+
+- HttpClientModule
+
+- FormsModule
 
 ## 🖼️ Outras imagens 🖼️
 
