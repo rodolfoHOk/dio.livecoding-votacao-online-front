@@ -32,9 +32,9 @@ export class VotacaoComponent implements OnInit {
     this.restService
       .postData('/votacao', participante)
       .subscribe((response) => {
-        this.router.navigate([
-          `/votacao/registrar?id=${response.id}&nome=${response.nome}`,
-        ]);
+        this.router.navigate(['/votacao/registrar'], {
+          queryParams: { id: response.id, nome: response.nome },
+        });
       });
   }
 }
