@@ -15,25 +15,25 @@
 
 - Criação do projeto
 
-  ng new votacao-online-front
+      ng new votacao-online-front
 
-  options: with routing and scss
+      options: with routing and scss
 
 - Criação do componente votacao
 
-  ng g c votacao/votacao
+      ng g c votacao/votacao
 
 - Criação do model participante
 
-  ng g interface model/participante
+      ng g interface model/participante
 
 - Criação do serviço rest
 
-  ng g s service/rest
+      ng g s service/rest
 
 - Criação do componente registrar-voto
 
-  ng g c votacao/registrarVoto
+      ng g c votacao/registrarVoto
 
 ## Modulos do Angular adicionais
 
