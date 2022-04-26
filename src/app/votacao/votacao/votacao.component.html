@@ -1,0 +1,19 @@
+<div class="container">
+  <h1 class="main-title">Votação On-line BBB 22</h1>
+  <form class="card" #formVotacao="ngForm" (ngSubmit)="votar()">
+    <label class="item" *ngFor="let participante of participantes">
+      <input
+        type="radio"
+        name="id"
+        value="{{ participante.id }}"
+        [(ngModel)]="voto"
+      />
+      <span>
+        {{ participante.nome }}
+      </span>
+    </label>
+    <div class="form-action">
+      <button type="submit">Votar</button>
+    </div>
+  </form>
+</div>
