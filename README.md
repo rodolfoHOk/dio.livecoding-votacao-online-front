@@ -1,13 +1,15 @@
 # Live Coding - Criando o sistema de VOTAÇÃO ONLINE do BBB - DIO
 
+# Front-End Angular
+
 > Projeto do Front-End Angular realizado durante a live coding Criando o sistema de VOTAÇÃO ONLINE do BBB da DIO com Rodrigo Tavares (Avanade) e Renan Oliveira (DIO).
 
 <img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/dio-votacao-online-01.png" alt="Votacao Online Img1" width="450"/>
 
 ## 👨‍💻 Tecnologias utilizadas 👩‍💻
 
-- Linguagem : Typescript
-- UI Framework : Angular
+- Typescript : Linguagem programação 
+- Angular : UI Framework
 
 ## 🖼️ Outras imagens 🖼️
 
